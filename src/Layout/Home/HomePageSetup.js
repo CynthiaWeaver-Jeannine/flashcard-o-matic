@@ -38,7 +38,7 @@ function HomePageSetup() {
     return (
         <div>
             <Link to="/decks/new"><button type="button" className="btn btn-secondary mt-0 ml-3"><FiPlusSquare /> Create Deck</button></Link>
-            {/* show existing decks wit study, view, and delete button*/}
+            {/* show existing decks with study, view, and delete button*/}
             <span>{deckSetup}</span>
         </div>
     );

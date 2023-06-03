@@ -4,8 +4,7 @@ import { readDeck } from "../../utils/api";
 import CardForm from "../EditCard/CardForm";
 import { IoMdHome } from "react-icons/io";
 
-/* Add functionality to allow users to add anew card to an existing deck 
-
+/* Add functionality to allow users to add anew card to an existing deck. 
 The path to this screen includes the deckId*/
 function AddCard() {
     const { deckId } = useParams();
@@ -31,7 +30,7 @@ function AddCard() {
         <div>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><IoMdHome /><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/"><IoMdHome /> Home</a></li>
                     <li class="breadcrumb-item"><a href={`/decks/${deck.id}`} >{deck.name}</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Add Card</li>
                 </ol>
