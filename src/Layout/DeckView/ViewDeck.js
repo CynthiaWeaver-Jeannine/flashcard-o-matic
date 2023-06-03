@@ -44,7 +44,7 @@ function ViewDeck() {
         <>                  
         <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><IoMdHome /><a href="/">Home</a></li>           
+            <li class="breadcrumb-item"><a href="/"><IoMdHome /> Home</a></li>           
             <li class="breadcrumb-item active" aria-current="page">{deck.name}</li>
         </ol>
         </nav>     

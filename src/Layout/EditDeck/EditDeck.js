@@ -53,7 +53,7 @@ function EditDeck() {
         <>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><IoMdHome /><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/"><IoMdHome /> Home</a></li>
                     <li class="breadcrumb-item"><a href={`/decks/${deck.id}`} >{deck.name}</a></li>
                     <li class="breadcrumb-item active" aria-current="page">EditDeck</li>
                 </ol>
