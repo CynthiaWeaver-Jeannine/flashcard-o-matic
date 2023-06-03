@@ -3,8 +3,9 @@ import { useParams, useHistory, Link } from "react-router-dom";
 import { readDeck } from "../../utils/api";
 import StudyCardFlip from "./StudyCardFlip";
 import { FiPlusSquare } from "react-icons/fi";
-import { HiHome } from "react-icons/hi";
+import { IoMdHome } from "react-icons/io";
 
+/* build functionality for study page; path to study screen is displayed at /decks/:deckId/study*/
 function Study() {
     const { deckId } = useParams();
     const history = useHistory();
@@ -13,7 +14,7 @@ function Study() {
     const [cards, setCards] = useState([]);
     const [card, setCard] = useState(0);
     
-
+/* load the deck that is being studied */
     useEffect(() => {
         async function loadDeck() {
             const deck = await readDeck(deckId);
@@ -31,7 +32,7 @@ function Study() {
             setSide(false)
         } else {setSide(true)}
     }
-
+/* restart prompt */
     const nextHandler = () => {
         if (card + 1 === cards.length) {
             if (window.confirm("Restart Cards? Click 'cancel' to return to the home page")) {
@@ -47,14 +48,14 @@ function Study() {
     if (deck.id) {
         if (totalCards < 3) {
             return (
-                <>
-                    <div className="d-flex bg-light rounded p-3">
-                        <p className="text-primary m-0 mr-2"><HiHome /></p>
-                        <a href="/" className="text-primary m-0">Home</a>
-                        <p className="text-secondary m-0 ml-2 mr-2">/</p>
-                        <a href={`/decks/${deck.id}`} className="text-primary m-0">{deck.name}</a>
-                        <p className="text-secondary m-0 ml-2">/  Study</p>
-                    </div>
+                <>                  
+                <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><IoMdHome /><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href={`/decks/${deck.id}`} >{deck.name}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Study</li>
+                </ol>
+                </nav>
                     <div>
                         <h2 className="mb-3 mt-3">Study: {deck.name}</h2>
                         <h3>Not enough cards.</h3>
@@ -65,20 +66,20 @@ function Study() {
             )
         }
         return (
-            <div>
-                <div className="d-flex bg-light rounded p-3">
-                    <p className="text-primary m-0 mr-2"><HiHome /></p>
-                    <a href="/" className="text-primary m-0">Home</a>
-                    <p className="text-secondary m-0 ml-2 mr-2">/</p>
-                    <a href={`/decks/${deck.id}`} className="text-primary m-0">{deck.name}</a>
-                    <p className="text-secondary m-0 ml-2">/  Study</p>
-                </div>
+           <>
+                <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><IoMdHome /><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href={`/decks/${deck.id}`} >{deck.name}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Study</li>
+                </ol>
+                </nav>
                 <h2 className="mb-3 mt-3">Study: {deck.name}</h2>
                 <div className="border rounded p-3">
                     <h3>Card {card + 1} of {totalCards}</h3>
                     <StudyCardFlip cards={cards} card={card} side={side} flipHandler={flipHandler} nextHandler={nextHandler}/>
                 </div>
-            </div>
+            </>
         )
     }
     return (<p>Loading Deck...</p>)
