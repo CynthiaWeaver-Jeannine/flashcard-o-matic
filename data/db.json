@@ -11,10 +11,9 @@
       "id": 2
     },
     {
-      "name": "New Deck",
-      "description": "test for new deck creation",
-      "": "fffff",
-      "id": 3
+      "id": 3,
+      "name": "React Terminology",
+      "description": "This deck provides vocabulary to help with gaining an understanding of how to use React."
     }
   ],
   "cards": [
