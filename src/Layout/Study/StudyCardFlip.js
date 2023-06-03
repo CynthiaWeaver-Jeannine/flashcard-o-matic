@@ -1,5 +1,7 @@
 import React from "react";
 
+
+//flip handling for study page
 function StudyCardFlip({ cards, card, side, flipHandler, nextHandler }) {
     
 
