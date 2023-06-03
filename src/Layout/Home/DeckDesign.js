@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { AiOutlineEye } from 'react-icons/ai'; 
 import { BsBookmarks, BsTrash } from 'react-icons/bs'
 
-//create the design of the deck display
-//use react icons and bootstrap 4
-//DeckDesign() used in HomePageSetup
+/* create the design of the deck display
+use react icons and bootstrap
+DeckDesign() used in HomePageSetup */
 function DeckDesign({ deck, cards, deleteHandler }) {
   return (
     <div className="border rounded m-3 p-3">
