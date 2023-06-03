@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsTrash, BsPencil } from "react-icons/bs";
 
+/* card view setup to be imported by MapCards component and displayed on the ViewDeck screen with both the question and the answer, an edit button and a delete button */
 function ViewCards({index, card, cardDeleteHandler, deckId}) {   
     if (index === 0) {
         return (
