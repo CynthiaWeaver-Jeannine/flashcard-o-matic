@@ -14,6 +14,21 @@
       "id": 3,
       "name": "React Terminology",
       "description": "This deck provides vocabulary to help with gaining an understanding of how to use React."
+    },
+    {
+      "name": "Trees",
+      "description": "Trees are a type of hierarchical data structure.",
+      "id": 4
+    },
+    {
+      "name": "Linked Lists ",
+      "description": "Practice with terminology and implementation of Linked Lists",
+      "id": 5
+    },
+    {
+      "name": "Stacks and Queues",
+      "description": "DSA Terminology: Stacks and Queues ",
+      "id": 6
     }
   ],
   "cards": [
@@ -51,6 +66,228 @@
       "id": 6,
       "front": "example edit",
       "back": "example edit"
+    },
+    {
+      "deckId": 4,
+      "id": 7,
+      "front": "Tree structure",
+      "back": "A type of structure that includes a single root and multiple levels of organization."
+    },
+    {
+      "front": "Root node",
+      "back": "A special node with no parent, from which all other nodes descend.",
+      "deckId": 4,
+      "id": 8
+    },
+    {
+      "front": "Leaf node",
+      "back": "a node without children.",
+      "deckId": 4,
+      "id": 9
+    },
+    {
+      "deckId": 4,
+      "id": 10,
+      "front": "Binary tree",
+      "back": "a tree with an additional limitation: each node can only have zero, one, or two children(at most).  "
+    },
+    {
+      "deckId": 4,
+      "id": 11,
+      "front": "Subtree",
+      "back": "A mini tree within a binary tree, whose root can be any node, and all of its descendants are rooted at that node."
+    },
+    {
+      "front": "What is the relationship between nodes in a tree?",
+      "back": "parent-child relationship",
+      "deckId": 4,
+      "id": 12
+    },
+    {
+      "front": "What is the node in a tree that has no parent and from which all other nodes descend?",
+      "back": "root node",
+      "deckId": 4,
+      "id": 13
+    },
+    {
+      "front": "Which type of node has no children?",
+      "back": "a leaf node",
+      "deckId": 4,
+      "id": 14
+    },
+    {
+      "front": "What is a binary tree?",
+      "back": "A binary tree is a tree data structure with an additional limitation: each node in a binary tree can only have zero, one, or two children. It may have a left branch and a right branch. It may also have subtrees.",
+      "deckId": 4,
+      "id": 15
+    },
+    {
+      "front": "What is a subtree?",
+      "back": "A sub tree is a mini tree within a binary tree, whose root can be any node and all of its descendants rooted at that node.",
+      "deckId": 4,
+      "id": 16
+    },
+    {
+      "front": "What is the relationship between the values of the nodes in a Binary Search Tree",
+      "back": "All of the nodes in the left branch are guaranteed to have lower values than the node itself, and all of the nodes in the right branch are guaranteed to have a value higher than the node itself.",
+      "deckId": 4,
+      "id": 17
+    },
+    {
+      "front": "Binary Search Tree (BST)",
+      "back": "Both left and right subtrees are guaranteed to be BSTs themselves. Binary trees tend to be recursive in nature. Binary search trees tend to be recursive in nature.",
+      "deckId": 4,
+      "id": 18
+    },
+    {
+      "front": "Balanced tree",
+      "back": "A tree in which each row contains two times as many nodes as the row before.",
+      "deckId": 4,
+      "id": 19
+    },
+    {
+      "front": "What are the characteristics of a BST?",
+      "back": "Each node has a parent, unless it is a root. Each node in a BST holds a key, a value, a left pointer, and a right pointer. The left and right pointers point to the left and right child nodes.",
+      "deckId": 4,
+      "id": 20
+    },
+    {
+      "front": "If the ___ property is null, this represents an empty tree.",
+      "back": "key",
+      "deckId": 4,
+      "id": 21
+    },
+    {
+      "front": "If the parent pointer is null, then you are dealing with a _______ node.",
+      "back": "root",
+      "deckId": 4,
+      "id": 22
+    },
+    {
+      "front": "What are the fundamental operations that BSTs suppoprt?",
+      "back": "insert(), find(), remove()",
+      "deckId": 4,
+      "id": 23
+    },
+    {
+      "front": "When inserting a new node into a tree, if there is no existing tree, where should the first item be inserted?",
+      "back": "as the root of the tree",
+      "deckId": 4,
+      "id": 24
+    },
+    {
+      "front": "What is the time complexity for insert(), find(), and remove() methods?",
+      "back": "Best case: O(1);\nAverage case: O(log n);\nWorst case: O(n)",
+      "deckId": 4,
+      "id": 25
+    },
+    {
+      "deckId": 4,
+      "id": 26,
+      "front": "What is DFS?",
+      "back": "depth-first search, which is a tree-traversal algorithm that starts from the root node, explores as far as possible in a subtree, and then backtracks before moving to the next subtree. It is typically implemented recursively."
+    },
+    {
+      "front": "What is In-order traversal?",
+      "back": "traversal in which the left branch of the node is visited, then the current node is handled, and then the right branch is visited.",
+      "deckId": 4,
+      "id": 27
+    },
+    {
+      "front": "What is pre-order traversal?",
+      "back": "traversal in which the current node is handled first, then the left branch of the node is visited, and then the right branch is visited.",
+      "deckId": 4,
+      "id": 28
+    },
+    {
+      "front": "What is Post-order traversal?",
+      "back": "traversal in which the left branch is visited, then the right branch is visited, and then the current node is handles.",
+      "deckId": 4,
+      "id": 29
+    },
+    {
+      "front": "What is the time complexity of Depth-First-Search",
+      "back": "Because each node in the BST is visited, the time complexity is O(n). In this case n represents the number of nodes in the tree.",
+      "deckId": 4,
+      "id": 30
+    },
+    {
+      "front": "Breadth-First Search",
+      "back": "BFS, a tree-traversal algorithm that starts at the root node and proceeds level by level",
+      "deckId": 4,
+      "id": 31
+    },
+    {
+      "front": "What is the time complexity for breadth-first search?",
+      "back": "O(n), where n represents the number of nodes in the tree because each node needs to be visited once.",
+      "deckId": 4,
+      "id": 32
+    },
+    {
+      "front": "Linked List",
+      "back": "An ordered, linear data structure in which each item contains a reference to the next item.",
+      "deckId": 5,
+      "id": 33
+    },
+    {
+      "front": "Head",
+      "back": "A reference to the first node in a linked list.",
+      "deckId": 5,
+      "id": 34
+    },
+    {
+      "front": "Tail",
+      "back": "The last node in a linked list",
+      "deckId": 5,
+      "id": 35
+    },
+    {
+      "front": "Singly Linked List",
+      "back": "A linked list in which each node contains exactly one reference to the next node",
+      "deckId": 5,
+      "id": 36
+    },
+    {
+      "front": "Doubly Linked List",
+      "back": "A linked list in which each node contains two references: a reference to the next node and a reference to the previous node",
+      "deckId": 5,
+      "id": 37
+    },
+    {
+      "front": "Circular Linked List",
+      "back": "A linked list in which the last node points to the first node or another node before it, thereby forming a loop.",
+      "deckId": 5,
+      "id": 38
+    },
+    {
+      "front": "When are linked lists most efficient?",
+      "back": "When inserting and removing data at the beginning of the list.",
+      "deckId": 5,
+      "id": 39
+    },
+    {
+      "deckId": 5,
+      "id": 40,
+      "front": "Explain `insertAtHead()`. What is its big O?",
+      "back": "Inserting only in the first position, regardless of the length of the list.\nO(1)"
+    },
+    {
+      "front": "Explain `insert()` . What is its big O?",
+      "back": "Requires iterating over all of the nodes until you reach the end of the list. O(n)",
+      "deckId": 5,
+      "id": 41
+    },
+    {
+      "front": "Explain find(). What is its big O?",
+      "back": "Requires iterating over all of the nodes until you find the node. O(n)",
+      "deckId": 5,
+      "id": 42
+    },
+    {
+      "front": "explain `remove()`, What is its big O?",
+      "back": "Requires iterating over all of the nodes until you find the node to remove. O(n)",
+      "deckId": 5,
+      "id": 43
     }
   ]
 }
