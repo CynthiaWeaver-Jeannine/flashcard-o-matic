@@ -12,23 +12,28 @@
     },
     {
       "id": 3,
-      "name": "React Terminology",
-      "description": "This deck provides vocabulary to help with gaining an understanding of how to use React."
+      "name": "Frontend Development",
+      "description": "Practice terminology and concepts related to aspects of Frontend Development"
     },
     {
+      "id": 4,
       "name": "Trees",
-      "description": "Trees are a type of hierarchical data structure.",
-      "id": 4
+      "description": "DSA Terminology: Trees are a type of hierarchical data structure."
     },
     {
+      "id": 5,
       "name": "Linked Lists ",
-      "description": "Practice with terminology and implementation of Linked Lists",
-      "id": 5
+      "description": "DSA Terminology: Practice with terms and implementation concepts for Linked Lists"
     },
     {
+      "id": 6,
       "name": "Stacks and Queues",
-      "description": "DSA Terminology: Stacks and Queues ",
-      "id": 6
+      "description": "DSA Terminology: Practice with terms and implementation concepts for Stacks and Queues "
+    },
+    {
+      "name": "React State Management",
+      "description": "Terminology, concepts, and implementation for React State Management",
+      "id": 7
     }
   ],
   "cards": [
@@ -288,6 +293,294 @@
       "back": "Requires iterating over all of the nodes until you find the node to remove. O(n)",
       "deckId": 5,
       "id": 43
+    },
+    {
+      "front": "Describe a Stack",
+      "back": "A stack is a vertical data structure. It is like a linked list in that it has access restricted to only one end. It stores elements in LIFO --last in first out-- order.",
+      "deckId": 6,
+      "id": 44
+    },
+    {
+      "front": "What is a standard way to implement a stack?",
+      "back": "Use a singly linked list with constraints on its operations--items can be inserted and deleted at only one place: the end of the list.",
+      "deckId": 6,
+      "id": 45
+    },
+    {
+      "front": "What are the two primary functions of a stack?",
+      "back": "push()--places data onto the top of a stack (insertion).\n\npop()--removes data from the top of the stack(deletion)",
+      "deckId": 6,
+      "id": 46
+    },
+    {
+      "front": "Explain the time complexity for the push() method to add a node to the top of a stack.",
+      "back": "Since you are only adding to the top of the stack, the time complexity is constant O(1).",
+      "deckId": 6,
+      "id": 47
+    },
+    {
+      "front": "How do you write a push() method for a stack?",
+      "back": "push(value) {\nthis.top = new Node(value, this.top);\nreturn this;\n}",
+      "deckId": 6,
+      "id": 48
+    },
+    {
+      "front": "",
+      "back": "",
+      "deckId": 6,
+      "id": 49
+    },
+    {
+      "front": "Explain the time complexity of the",
+      "back": "Because you are removing only from the top of the stack, time complexity is constant, O(1)",
+      "deckId": 6,
+      "id": 50
+    },
+    {
+      "front": "How do you create pop() method for a stack?",
+      "back": "pop() { const popped = this.top; this.top = popped.next; return popped.value; }",
+      "deckId": 6,
+      "id": 51
+    },
+    {
+      "front": "Describe a Queue",
+      "back": "A queue is a horizontal data structure that stores data in a first in, first out order (FIFO). Think: First Come,, First Serverd",
+      "deckId": 6,
+      "id": 52
+    },
+    {
+      "front": "What are two of the main functions of a queue (describe them)",
+      "back": "enqueue(data): data is inserted a the end of a queue (list); and dequeue(): removes the oldest data at the beginning of the list, which was added to the queue first (deletion).",
+      "deckId": 6,
+      "id": 53
+    },
+    {
+      "front": "Document Object Model (DOM)",
+      "back": "the data representation of the HTML elements that make up the structure of a web page. The DOM serves as a way for JavaScript to understand the structure of an HTML page in order to make it dynamic.",
+      "deckId": 3,
+      "id": 54
+    },
+    {
+      "front": "Definition of Child Element",
+      "back": "an element that is nested inside another element",
+      "deckId": 3,
+      "id": 55
+    },
+    {
+      "front": "Parent Element",
+      "back": "An element that has one or more elements nested inside it",
+      "deckId": 3,
+      "id": 56
+    },
+    {
+      "front": "How do you write the code to connect a JavaScript file to index.html?",
+      "back": "<script src=\"/path/index.js\"></script>",
+      "deckId": 3,
+      "id": 57
+    },
+    {
+      "front": "What is the <noscript> tag used for, and how is it written?",
+      "back": "It can notify users that the website depends on scripts. <noscript>This site requires JavaScript.</noscript>",
+      "deckId": 3,
+      "id": 58
+    },
+    {
+      "deckId": 3,
+      "id": 59,
+      "front": "What are two ways of searching the DOM to find elements so that you can manipulate HTML with JavaScript.",
+      "back": "querySelector() and querySelectorAll()"
+    },
+    {
+      "front": "Define Node",
+      "back": "An element in a tree structure.",
+      "deckId": 3,
+      "id": 60
+    },
+    {
+      "deckId": 3,
+      "id": 61,
+      "front": "What is a node list?",
+      "back": "A list of elements that match a given selector. A node list is not an array, but it provides several properties that allow it to be processed like an array."
+    },
+    {
+      "front": "Developer Tools: What does the Element inspector do?",
+      "back": "It allows you to inspect a particular element on the page.",
+      "deckId": 3,
+      "id": 62
+    },
+    {
+      "front": "Developer Tools: What does the Styles tab allow you to do?",
+      "back": "It allows ou to see which styles have been applied to a particular element.",
+      "deckId": 3,
+      "id": 63
+    },
+    {
+      "front": "Developer tools: What does the device toolbar allow you to see?",
+      "back": "It allows you to see what your website will look like on various devices.",
+      "deckId": 3,
+      "id": 64
+    },
+    {
+      "front": "What does the querySelector() method do?",
+      "back": "It is a built-in method used to search the DOM. It accepts a string that represents an HTML element and returns the first element in the DOM that matches the selector.",
+      "deckId": 3,
+      "id": 65
+    },
+    {
+      "front": "How is querySelector written?",
+      "back": "ex: const heading = document.querySelector(\"h1\"); console.log(heading);",
+      "deckId": 3,
+      "id": 66
+    },
+    {
+      "front": "What is a selector? Name some selectors.",
+      "back": "A selector is any valid CSS selector. examples: Id selector(#rating, #area); Class selector(.location, .stats); Type selector(h1, p, section) ",
+      "deckId": 3,
+      "id": 67
+    },
+    {
+      "front": "What is HTMLElement? and what is an example?",
+      "back": "a build-in interface that exposes properties and methods common to all elements that are found in an HTML document. An example is querySelectorAll() method",
+      "deckId": 3,
+      "id": 68
+    },
+    {
+      "front": "What is the innerText property?",
+      "back": "It is one of the properties exposed by the HTMLElement interface. It contains any text that is contained between the opening and closing tags of an element.",
+      "deckId": 3,
+      "id": 69
+    },
+    {
+      "front": "What is classList property?",
+      "back": "The classList property is a list of the classes that are applied to an element. It provides methods to add() and remove() classes.",
+      "deckId": 3,
+      "id": 70
+    },
+    {
+      "front": "What is React?",
+      "back": "A powerful tool that makes it easier to build complex web applications that rely on DOM manipulation",
+      "deckId": 1,
+      "id": 71
+    },
+    {
+      "front": "What does using importing React and ReactDOM do?",
+      "back": "React makes sure the components compile properly, and ReactDOM makes sure that the DOM-related methods to display the components into the browser are also compiled properly.",
+      "deckId": 1,
+      "id": 72
+    },
+    {
+      "front": "Which function does React use to display the component into the web page?",
+      "back": "render() function, which takes two arguments: the react component to be rendered and the DOM container where it should be placed. ",
+      "deckId": 1,
+      "id": 73
+    },
+    {
+      "front": "Which element does the create react app setup use as the DOM container, and how is it obtained?",
+      "back": "The \"root\" element is obtained with `document.getElementById(\"root\")",
+      "deckId": 1,
+      "id": 74
+    },
+    {
+      "front": "What is a component and of what are components comprised?",
+      "back": "A component is a single part of a user interface that can be used in multiple places. Components are made up of multiple elements like <h1> or <img>, but with specific properties for the application. It can be a single HTML element, but it's usually made up of a collection of elements. ",
+      "deckId": 1,
+      "id": 75
+    },
+    {
+      "front": "Define JSX",
+      "back": "JSX is an HTML like syntax for defining user interface elements inside the React code.",
+      "deckId": 1,
+      "id": 76
+    },
+    {
+      "front": "What is a functional component?",
+      "back": "A JavaScript component that returns JSX",
+      "deckId": 1,
+      "id": 78
+    },
+    {
+      "deckId": 1,
+      "id": 79,
+      "front": "Define Prop",
+      "back": "An input passed into a React component as an object. Used to customize the data in each component."
+    },
+    {
+      "deckId": 7,
+      "id": 80,
+      "front": "Define Hook",
+      "back": "A special React function that gives you access to some react process. You could say that it hooks into some react process."
+    },
+    {
+      "front": "Explain the concept of one-way data flow,",
+      "back": "This is the idea that changes in props or state will cascade downward to cause changes further on. Also called one-way binding.",
+      "deckId": 7,
+      "id": 81
+    },
+    {
+      "deckId": 7,
+      "id": 82,
+      "front": "Explain State.",
+      "back": "React components use state to store information that is updated by the component. State refers to data that affects how the application behaves and is rendered. Every React component can have its own state. Simply: state is the data that changes as the user interacts with the component."
+    },
+    {
+      "front": "How do you create and edit State, and what does this allow you to do?",
+      "back": "Use the useState() hook, which allows you to change the interface, which allows you to create and edit state, whick can change the interface. useState() hooks into the components state.",
+      "deckId": 7,
+      "id": 83
+    },
+    {
+      "front": "Race Condition",
+      "back": "Also called a race hazard. It is a condition where a program depends on the relative timing of one or more process to function correctly.",
+      "deckId": 7,
+      "id": 84
+    },
+    {
+      "front": "Lifting Up State: explain.",
+      "back": "The process of moving state higher up in the tree so that state can be passed from a parent component to multiple children. ",
+      "deckId": 7,
+      "id": 85
+    },
+    {
+      "front": "explain useEffect()",
+      "back": "A React hook; perform side effects, accepts a callback function. Within the callback the useEffect function is performed.  useEffect accepts a second parameter that can be used to stop the render by passing an empty array.",
+      "deckId": 7,
+      "id": 86
+    },
+    {
+      "front": "A function that modifies the DOM element is introducing _________",
+      "back": "a side effect",
+      "deckId": 7,
+      "id": 87
+    },
+    {
+      "front": "Examples of side Effects in React function components",
+      "back": "Making asynchronous API call for data; updating a Dom element; updating a variable that isnt a local variable ; ",
+      "deckId": 7,
+      "id": 88
+    },
+    {
+      "front": "REST stands for",
+      "back": "Representational State Transfer",
+      "deckId": 7,
+      "id": 89
+    },
+    {
+      "front": "How does the server respond when a client makes a request for a resource using a REST API?",
+      "back": "The server transfers back the current state of the resource in a standardized representation. ",
+      "deckId": 7,
+      "id": 90
+    },
+    {
+      "front": "What is the global fetch() function used for?",
+      "back": "At least one this is to make API calls.",
+      "deckId": 7,
+      "id": 91
+    },
+    {
+      "front": "Why is useEffect()  needed for API calls?",
+      "back": "It avoids being stuck in an infinite loop with fetch() triggered, then setUser and update the state, which would trigger a rerender that would call fetch().... ad infinitum",
+      "deckId": 7,
+      "id": 92
     }
   ]
 }
