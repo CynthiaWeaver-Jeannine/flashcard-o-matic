@@ -49,7 +49,7 @@ The flashcard application allows users to create study decks, add cards, edit/de
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, start with these steps.
 
 ### Prerequisites
 * npm
