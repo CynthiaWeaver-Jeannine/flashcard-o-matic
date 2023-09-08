@@ -62,7 +62,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
   git clone https://github.com/github_cynthi](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
