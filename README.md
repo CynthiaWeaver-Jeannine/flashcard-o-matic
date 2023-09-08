@@ -35,13 +35,11 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
+
 ## About The Project
 The flashcard application allows users to create study decks, add cards, edit/delete cards, and study their created cards.
 
 ![image](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic/assets/132491873/2ecd8fad-0109-4426-a4ac-64d9359d518c)
-
- `CynthiaWeaver-Jeannine / flashcard-o-matic`,  `linkedin.com/in/cynthiajweaver-dev`, `Flashcard-o-Matic`, `flashcard study system`
 
 
 
@@ -62,7 +60,7 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 1.  Clone the repo
    ```sh
-  (git clone https://github.com/github_cynthi](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic.git)
+  git clone https://github.com/github_cynthi](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic.git
    ```
 3. Install NPM packages
    ```sh
