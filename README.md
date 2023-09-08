@@ -2,17 +2,12 @@
 
 ![image](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic/assets/132491873/b8a2f515-b6de-4684-847d-8a763a98fe0c)
 
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+  <p align="center" id="readme-top">
+    A flashcard application that allows users to create study decks, add cards, edit/delete cards, and study their created cards. 
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://flashcards-frontend-ole1.onrender.com">View a Demo of the Flashcard App</a>
+    
   </p>
 </div>
 
@@ -49,24 +44,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![image](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic/assets/132491873/2ecd8fad-0109-4426-a4ac-64d9359d518c)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+ `CynthiaWeaver-Jeannine / flashcard-o-matic`,  `linkedin.com/in/cynthiajweaver-dev`, `Flashcard-o-Matic`, `flashcard study system`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
-
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,8 +199,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 
-
-## Dashboard
 ![image](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic/assets/132491873/2ecd8fad-0109-4426-a4ac-64d9359d518c)
 
 
