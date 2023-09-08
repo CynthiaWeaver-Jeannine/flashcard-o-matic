@@ -2,8 +2,8 @@
 
 ![image](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic/assets/132491873/b8a2f515-b6de-4684-847d-8a763a98fe0c)
 
-  <p align="center" id="readme-top">
-    A flashcard application that allows users to create study decks, add cards, edit/delete cards, and study their created cards. 
+  <p id="readme-top">
+    A flashcard application study tool. 
     <br />
     <br />
     <a href="https://flashcards-frontend-ole1.onrender.com">View a Demo of the Flashcard App</a>
@@ -12,8 +12,6 @@
 </div>
 
 
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -31,11 +29,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -43,12 +37,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+The flashcard application allows users to create study decks, add cards, edit/delete cards, and study their created cards.
 
 ![image](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic/assets/132491873/2ecd8fad-0109-4426-a4ac-64d9359d518c)
 
  `CynthiaWeaver-Jeannine / flashcard-o-matic`,  `linkedin.com/in/cynthiajweaver-dev`, `Flashcard-o-Matic`, `flashcard study system`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
