@@ -1,12 +1,6 @@
 
 
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">project_title</h3>
+![image](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic/assets/132491873/b8a2f515-b6de-4684-847d-8a763a98fe0c)
 
   <p align="center">
     project_description
@@ -217,4 +211,10 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+
+## Dashboard
+![image](https://github.com/CynthiaWeaver-Jeannine/flashcard-o-matic/assets/132491873/2ecd8fad-0109-4426-a4ac-64d9359d518c)
+
+
 
